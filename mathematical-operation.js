@@ -24,3 +24,11 @@ var total = firstNumber + secondNumber;
 total = total.toFixed(1);
 total = parseFloat(total);
 // console.log(total);
+
+// modulus
+var mangoes = 57;
+var hungryPerson = 12;
+var dividing = mangoes / hungryPerson;
+console.log(dividing);
+var remaining = mangoes % hungryPerson;
+console.log(remaining);
